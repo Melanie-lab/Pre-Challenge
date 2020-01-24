@@ -1,0 +1,142 @@
+    /* * {
+       box-sizing: border-box;
+    } */  
+
+/******************** Tag selectors ************************************************/
+
+    body {
+        background-color: #655c56;
+        margin: 0% 10% 0% 10%;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        display: block;
+    }
+    
+    header {
+        background-color: #655c56;
+        z-index: 2;
+        left: 0;
+        position: fixed;        /*fixes header which includes nav*/
+        top: 0;          /*leaves header on top*/
+        /*width:calc(100vw - 400px)*/
+        width: 100%;
+        display: block;
+    }
+
+    nav {
+        background-color: #effcef;
+        display: block;
+    }
+
+    h1 {
+        margin-left: 5px;
+        font-family: 'Indie Flower', cursive;
+        color: beige;
+        margin-left: 20px;
+    }
+
+    h2 {font-size: 28px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        color: beige;
+        /*line-height: 26.4px;*/
+        font-family: 'Indie Flower', cursive;
+        
+    }
+   
+    h3 {
+        text-align: center;
+    }
+    
+    p {
+        color: beige;}
+
+
+    hr {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: #94d3ac;
+        border-width: 3px;
+        margin: 50px 0px;
+        
+    }
+        
+    .img_Melanie {  
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
+        float: right;
+        width: 20%;
+    }
+        /*
+        
+        position: relative;
+        margin: 10px 10px 10px 10px; 
+         /*
+    
+    
+    /*.section-container {
+        background-color: #94d3ac;
+        padding: 20px 20px 20px 20px; 
+        border-style: grooved;
+        border-width: 5px; 
+            } 
+
+/******************** Class selectors ************Class selectors overwrite tag selectors! ************************************/    
+
+    /*..sub_body {
+        padding-top: 175px;
+    } */
+
+    .wrapper {
+        z-index: 1;
+        margin: 0 auto;
+        max-width: 700px;
+        position: relative;
+   } 
+
+   .table1 {
+        width: 200px;
+        text-align: center;
+        border: solid;
+        padding: 5px 0;
+        border-color: #655c56;
+   }
+
+   /*.section {
+    border-style: grooved;
+    border-width: 5px;
+   }*/
+ 
+   .img_Iran {
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
+        max-width: 30rem;
+    }    
+         /*position: relative;
+         margin: 10px 10px 10px 10px; */    
+   
+    .list_topics_to_talk {
+        color: beige;
+    }
+
+    .emtpy_container {
+        height: 275px;
+        position: relative;
+        color: red;
+    }
+ 
+    .Math {color: aquamarine;
+        z-index: 4;
+    text-align: center;}
+
+    .math_solution {
+        margin-left: 50px;
+        margin-right: 500px;
+    }
+
+    .contact_form {
+        display: block;
+
+    }
